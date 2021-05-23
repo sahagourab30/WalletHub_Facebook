@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Application Test" duration-ms="12466" started-at="2021-05-23T16:11:38 IST" finished-at="2021-05-23T16:11:51 IST">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageTests.loginTest()[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c]" name="loginTest" class="wallethub.tests.HomePageTests"/>
+      </group> <!-- HomePage -->
+    </groups>
+    <test name="PostMessage" duration-ms="12466" started-at="2021-05-23T16:11:38 IST" finished-at="2021-05-23T16:11:51 IST">
+      <class name="wallethub.tests.HomePageTests">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c]" name="initialization" is-config="true" duration-ms="3064" started-at="2021-05-23T16:11:38 IST" finished-at="2021-05-23T16:11:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c]" name="setUp" is-config="true" duration-ms="381" started-at="2021-05-23T16:11:41 IST" finished-at="2021-05-23T16:11:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void wallethub.tests.HomePageTests.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c]" name="loginTest" duration-ms="8601" started-at="2021-05-23T16:11:42 IST" finished-at="2021-05-23T16:11:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c]" name="tearDown" is-config="true" duration-ms="153" started-at="2021-05-23T16:11:50 IST" finished-at="2021-05-23T16:11:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c]" name="getResult" is-config="true" duration-ms="236" started-at="2021-05-23T16:11:50 IST" finished-at="2021-05-23T16:11:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=HomePageTests.loginTest()[pri:0, instance:wallethub.tests.HomePageTests@307f6b8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- wallethub.tests.HomePageTests -->
+    </test> <!-- PostMessage -->
+  </suite> <!-- Facebook Application Test -->
+</testng-results>

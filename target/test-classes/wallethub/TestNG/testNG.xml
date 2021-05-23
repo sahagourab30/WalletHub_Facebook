@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Facebook Application Test" parallel="tests" thread-count="2" verbose="6" configfailurepolicy="continue">
+
+	<test name="PostMessage" parallel="methods" thread-count="1">
+		<groups>
+			<run>
+				<include name = "HomePage"/>
+			</run>
+		</groups>
+		<packages> 
+				<package name="wallethub.tests"/>
+		</packages>
+	</test>
+</suite>
